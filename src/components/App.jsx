@@ -7,7 +7,7 @@ function App() {
     <div>
       <h1 className="heading">My Contacts</h1>
       <Card
-      name={contacts[0].name}
+      name={contacts[0].name} //[] is an array
       img={contacts[0].imgURL}
       tel={contacts[0].phone}
       email={contacts[0].email}
